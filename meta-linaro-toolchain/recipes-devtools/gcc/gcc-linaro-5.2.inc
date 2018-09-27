@@ -58,9 +58,9 @@ EXTRA_OECONF_PATHS = "\
 
 PV = "linaro-${BASEPV}"
 
-MMYY = "15.11-2"
-RELEASE = "20${MMYY}"
-PR = "r${RELEASE}"
+MMYY = "15.11"
+RELEASE = "20${MMYY}-2"
+PR = "r20${MMYY}"
 BINV = "5.2.1"
 
 FILESPATH = "${@base_set_filespath([ '${FILE_DIRNAME}/gcc-${PV}' ], d)}"
